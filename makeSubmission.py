@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-
 def main():
     # create the training & test sets
     dataset = pd.read_csv('Data/train.csv')
